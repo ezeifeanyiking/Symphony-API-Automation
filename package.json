@@ -1,0 +1,19 @@
+{
+  "name": "symphony-api-automation",
+  "version": "1.0.0",
+  "description": "symphony-api-automation",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "playwright test --config=api.config.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.45.1",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10"
+  }
+}
